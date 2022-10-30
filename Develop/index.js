@@ -1,67 +1,71 @@
 // TODO: Include packages needed for this application
-const fs = require ('fs');
-const inquirer = require ('inquirer');
+const fs = require('fs');
+const inquirer = require('inquirer');
 const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-//const questions = [];
-inquirer
-.prompt([
+inquirer.prompt
+const questions = [
     {
-        type: 'input',
-        message: 'Please provide a title for your project!',
-        name: 'Title',
-      },
-      {
-        type: 'input',
-        message: 'Description',
-        name: 'Description',
-      },
-      {
-        type: 'Input',
-        message: 'Table of Contents: ',
-        name: 'Table of Contents',
-      },
-      {
-        type: 'Input',
-        message: 'Installation: ',
-        name: 'Installation',
-      },
-      {
-        type: 'Input',
-        message: 'Usage',
-        name: 'Usage',
-      },
-      {
-        type: 'Input',
-        message: 'License',
-        name: 'License',
-      },
-      {
-        type: 'Input',
-        message: 'Contributing',
-        name: 'Contributing',
-      },
-      {
-        type: 'Input',
-        message: 'Tests',
-        name: 'Tests',
-      },
-      {
-        type: 'Input',
-        message: 'Questions',
-        name: 'Questions',
-      },
-    ])
-
-
-
+      type: 'input',
+      message: 'Please provide a title for your project!',
+      name: 'Title',
+    },
+    {
+      type: 'input',
+      message: 'Description',
+      name: 'Description',
+    },
+    {
+      type: 'Input',
+      message: 'Table of Contents: ',
+      name: 'Table of Contents',
+    },
+    {
+      type: 'Input',
+      message: 'Installation: ',
+      name: 'Installation',
+    },
+    {
+      type: 'Input',
+      message: 'Usage',
+      name: 'Usage',
+    },
+    {
+      type: 'Input',
+      message: 'License',
+      name: 'License',
+    },
+    {
+      type: 'Input',
+      message: 'Contributing',
+      name: 'Contributing',
+    },
+    {
+      type: 'Input',
+      message: 'Tests',
+      name: 'Tests',
+    },
+    {
+      type: 'Input',
+      message: 'Questions',
+      name: 'Questions',
+    },
+  ]
 // TODO: Create a function to write README file
-function writeToFile(README.md, data) {}
+  fs.writeFile('README.md', inquirer.prompt.questions, err => {
+    err ? console.error(err) :
+    console.log("Congrats on generating your README.MD file")
+  });
+  for (const question of questions) {
+    console.log(question);
+  }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
-init();
+//init();
