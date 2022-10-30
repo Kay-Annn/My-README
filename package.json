@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "i": "^0.3.7",
+    "inquirer": "^8.2.4",
+    "npm": "^8.19.2"
+  }
+}
