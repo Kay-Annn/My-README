@@ -18,12 +18,12 @@ const questions = [
     message: 'Description',
     name: 'Description',
   },
-  {
-    type: 'list',
-    message: 'Table of Contents: ',
-    name: 'Table of Contents',
-    choices: ['Installation','Usage','License','Contributing','Tests', 'Questions'],
-  },
+ // {
+ //   type: 'list',
+ //   message: 'Table of Contents: ',
+ //   name: 'Table of Contents',
+ //   choices: ['Installation','Usage','License','Contributing','Tests', 'Questions'],
+ // },
   {
     type: 'input',
     message: 'Installation: ',
@@ -83,7 +83,7 @@ function init() {
   inquirer.prompt(questions)
     .then(function (answer) {
       console.log(answer);
-      let fileContent = generateMarkdown(answer);
+      let fileContent = generateMarkdown(questions,answer);
       writeToFile(fileContent)
     });
 }
