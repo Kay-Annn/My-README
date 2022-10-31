@@ -41,7 +41,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     licenseSection = ''
   } else {
-    licenseSection = `License:$(license)`
+    licenseSection = `License:${license}`
   }
   return licenseSection;
 }
@@ -56,7 +56,13 @@ function generateMarkdown(questions,answer) {
   ### ${renderLicenseLink(answer.License)}
 
   ## Table of Content:
-  ### *[License](#License)
+  ### * [License] (#License)
+  ### * [Description] (#Description)
+  ### * [Usage] (#Usage)
+  ### * [Contribution] (#Contribution)
+  ### * [Test] (#Test)
+  ### * [Questions] (#Questions)
+
 
 ## Description:
 ${answer.Description}
@@ -68,7 +74,7 @@ ${answer.Installation}
 ${answer.Usage}
 
 ## Contribution:
-${answer.Contributing}
+${answer.Contribution}
 
 ## Test: 
 ${answer.Tests}
