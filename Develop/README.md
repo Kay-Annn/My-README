@@ -2,8 +2,8 @@
   # README Generator
 
   ## License: 
-  License:Apache 2.0 ![Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-  ### https://opensource.org/licenses/Apache-2.0
+  License:MIT ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ### https://opensource.org/licenses/MIT
 
   ## Table of Content:
   ### * [License] (#License)
@@ -15,20 +15,20 @@
 
 
 ## Description:
-Easy to use README Gnerator to save you time
+README Generator to easily and professionally generate a README.md file for all your projects
 
 ## Installation:
-Easily install by downloading from code in repo
+Install easily by downloading the code in the repo
 
 ## Usage:
-Used for generating quick and professional README.md files for your projects
+Use to generate a repo a professional repo that can be used in you existing and upcoming projects. 
 
 ## Contribution:
-Me, Myself and I
+Me, Myself and I 
 
 ## Test: 
-Tested using command "node.js"
+Tested using the command "node.js"
 
 ## Questions:
-Feel free to contact me for questions via e-mail: e-mail@e-mail.com
+Feel free to contact me via e-mail: e-mail@mail.com
 
