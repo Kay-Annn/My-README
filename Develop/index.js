@@ -50,8 +50,8 @@ const questions = [
   },
   {
     type: 'Input',
-    message: 'Contributing',
-    name: 'Contributing',
+    message: 'Contribution',
+    name: 'Contribution',
   },
   {
     type: 'Input',
