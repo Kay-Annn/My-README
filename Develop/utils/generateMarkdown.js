@@ -56,12 +56,12 @@ function generateMarkdown(questions,answer) {
   ### ${renderLicenseLink(answer.License)}
 
   ## Table of Content:
-  ### * [License] (#License)
-  ### * [Description] (#Description)
-  ### * [Usage] (#Usage)
-  ### * [Contribution] (#Contribution)
-  ### * [Test] (#Test)
-  ### * [Questions] (#Questions)
+  ### * [License](#License)
+  ### * [Description](#Description)
+  ### * [Usage](#Usage)
+  ### * [Contribution](#Contribution)
+  ### * [Test](#Test)
+  ### * [Questions](#Questions)
 
 
 ## Description:
