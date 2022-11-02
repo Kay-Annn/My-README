@@ -15,20 +15,20 @@
 
 
 ## Description:
-README Generator to easily and professionally generate a README.md file for all your projects
+Generate a README for your file easily and professionally. A README is needed to help provide visitors to your project with information regarding your project. It illustrates the functionality, licenses, collaborators and advise whether   they themselves can contribute.
 
 ## Installation:
-Install easily by downloading the code in the repo
+You can install this project by copying the code in the GitHub repo. 
 
 ## Usage:
-Use to generate a repo a professional repo that can be used in you existing and upcoming projects. 
+Use this to easily generate a professional README.md file
 
 ## Contribution:
-Open to contributions
+No contributor so far but you are welcome to contribute. 
 
 ## Test: 
-Tested using the command "node.js"
+This application has been tested using the command "node index.js"
 
 ## Questions:
-Feel free to contact me via e-mail: e-mail@mail.com
+Feel free to reach me with any questions or comments via e-mail: mail@mail.com
 

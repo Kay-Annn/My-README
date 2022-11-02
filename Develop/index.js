@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { resolve } = require('path');
 const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// TODO: Create an array of questions for user input
+//Create an array of questions for user input
 inquirer.prompt
 const questions = [
   {
@@ -18,12 +18,7 @@ const questions = [
     message: 'Description',
     name: 'Description',
   },
- // {
- //   type: 'list',
- //   message: 'Table of Contents: ',
- //   name: 'Table of Contents',
- //   choices: ['Installation','Usage','License','Contributing','Tests', 'Questions'],
- // },
+
   {
     type: 'input',
     message: 'Installation: ',
@@ -64,7 +59,7 @@ const questions = [
     name: 'Questions',
   },
 ]
-// TODO: Create a function to write README file
+//Create a function to write README file
 const writeToFile = fileContent => {
   return new Promise((resolve, reject) => {
     fs.writeFile('./README.md', fileContent, err => {
@@ -78,7 +73,7 @@ const writeToFile = fileContent => {
     });
   });
 };
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
     .then(function (answer) {
@@ -88,7 +83,7 @@ function init() {
     });
 }
 
-// Function call to initialize app
+//Function call to initialize app
 init();
 
 module.exports = questions;
